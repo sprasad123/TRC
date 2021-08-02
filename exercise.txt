@@ -1,0 +1,8 @@
+SQL Exericse 1:
+
+SELECT StartTime, EndTime, DATEDIFF(MINUTE, StartTime , EndTime) AS MinuteDiff 
+FROM TableName
+
+SQL Exercise 2:
+
+SELECT * FROM TableName WHERE (EMPLOYEE_ID IN (SELECT MANAGER_ID FROM TableName));
