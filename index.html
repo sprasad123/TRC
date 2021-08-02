@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="todo.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<h2>My Task List</h2>
+
+<table id="todo">
+	<thead>
+        <tr>
+            <th>Task Name</th>
+            <th>Time Completed</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="row">
+            <td>Get groceries</td>
+            <td class="t_completed"></td>
+            <td class="item_complete"> <input type="checkbox"> </td>
+        </tr>
+        <tr class="row">
+            <td>Take out trash</td>
+            <td class="t_completed"></td>
+            <td class="item_complete"> <input type="checkbox"> </td>
+        </tr>
+        </tbody>
+</table>
+
+<div id="TodoAdd">
+    <input type="text" id="myInput" placeholder="Next Task">
+    <button onclick="newItem()">Add</button>
+</div>
+
+</html>

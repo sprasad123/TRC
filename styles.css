@@ -1,0 +1,10 @@
+.dashed{
+    text-decoration: line-through;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {background: #ced4ff}
+tr:nth-child(odd) {background: #fbffe6}
